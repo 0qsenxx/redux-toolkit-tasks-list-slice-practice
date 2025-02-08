@@ -24,6 +24,6 @@ const store = configureStore({
   },
 });
 
-const persistoredStore = persistStore(store);
+const persistedStore = persistStore(store);
 
-export {store, persistoredStore}
+export {store, persistedStore}
